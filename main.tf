@@ -1,4 +1,4 @@
-  name            = "medusa-service"
+
   cluster         = aws_ecs_cluster.medusa_cluster.id
   task_definition = aws_ecs_task_definition.medusa_task.arn
   desired_count   = 1
